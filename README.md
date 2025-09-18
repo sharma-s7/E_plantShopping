@@ -4,12 +4,32 @@ A sleek frontend for an e-commerce plant shopping experience. Built with React a
 
 ## 🚀 Features
 
-- 🌿 Product listing with dynamic filtering and sorting
+- - 🏠 **Landing Page**  
+  - Introductory section with a button linking to the product listing page
+
+- - 🧭 **Navigation Bar**  
+  - Links to Landing, Product Listing, and Shopping Cart pages
+
+- 🪴 **Product Listing Page**  
+  - Cards for each plant displaying:
+    - Image
+    - Name
+    - Description
+    - Cost
+    - “Add to Cart” button
+
 - 🛒 Cart management with Redux state
-- 🔍 Search functionality with debounce
-- 💚 Wishlist and persistent state via localStorage
+- - 🛒 **Shopping Cart Page**  
+  - Displays all products added to the cart
+  - Each cart item includes:
+    - Thumbnail image
+    - Unit cost
+    - Total cost for quantity
+    - Quantity increment/decrement buttons
+    - Delete button
+- 🔢 Cart icon displays item count in real-time  
 - 🧭 Routing with React Router
-- 🎨 Visually polished UI with glassmorphism and smooth transitions
+  
 
 ## 🧱 Tech Stack
 
@@ -20,6 +40,6 @@ A sleek frontend for an e-commerce plant shopping experience. Built with React a
 | Routing       | React Router DOM                    |
 | Styling       | CSS Modules / Styled Components     |
 | Icons         | React Icons / Custom SVGs           |
-| Deployment    | Vercel / Netlify / GitHub Pages     |
+| Deployment    | Vercel                              |
 
-## 📁 Folder Structure
+
